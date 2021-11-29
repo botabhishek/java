@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class hello {
+    public static void main(String args[]) 
+    {
+      System.out.println("enter a number");
+      
+      Scanner sc=new Scanner(System.in); //creates a scanner objects
+      int num=sc.nextInt();
+      
+      System.out.println("multiplication table is");
+      for(int i=1; i<=10; i++)
+      {
+          int prod=num*i;
+          System.out.println(num+"*"+i+"="+prod);
+      }
+      }
+}
